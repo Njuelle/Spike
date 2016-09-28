@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".PalindromeActivity" />
+        <activity android:name=".StringCalculatorActivity"></activity>
     </application>
 
 </manifest>
