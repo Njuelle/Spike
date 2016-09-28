@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //PALINDROME
         launchActivityOnClick((Button) findViewById(R.id.button_palindrome), PalindromeActivity.class);
         launchActivityOnClick((Button) findViewById(R.id.button_string_calculator), StringCalculatorActivity.class);
 
