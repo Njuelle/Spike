@@ -2,4 +2,8 @@
     <string name="app_name">Spike</string>
     <string name="button_palindrome">Palindrome</string>
     <string name="button_string_calculator">String Calculator</string>
+    <string name="palindrome_title">PALINDROME</string>
+    <string name="palindrome_hint">Type a word</string>
+    <string name="button_check_palindrome">Check</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>
