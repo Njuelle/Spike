@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Spike</string>
+    <string name="button_palindrome">Palindrome</string>
+    <string name="button_string_calculator">String Calculator</string>
 </resources>
