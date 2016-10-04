@@ -1,6 +1,7 @@
 package com.example.nico.spike;
 
 import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -32,9 +33,9 @@ public class PalindromeActivity extends AppCompatActivity {
                 resultText.setText(getReverse(editTextPalindrome.getText().toString()));
 
                 if (checkPalindrome(editTextPalindrome.getText().toString())) {
-                    fab.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(PalindromeActivity.this, R.color.green)));
+                    fab.setBackgroundTintList(ColorStateList.valueOf(Color.GREEN));
                 } else {
-                    fab.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(PalindromeActivity.this, R.color.red)));
+                    fab.setBackgroundTintList(ColorStateList.valueOf(Color.RED));
                 }
             }
 
