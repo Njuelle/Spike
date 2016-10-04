@@ -51,7 +51,7 @@ public class PalindromeActivity extends AppCompatActivity {
     }
 
     private boolean checkPalindrome(String text) {
-        if (text.isEmpty() || text.length() < 2) {
+        if (text.isEmpty()) {
             return false;
         }
         StringBuffer sb = new StringBuffer(text);
