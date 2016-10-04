@@ -26,10 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <TextView
-        android:id="@+id/text_view_result_palindrome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+
 
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
@@ -41,5 +38,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/text_view_result_palindrome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"/>
 
 </RelativeLayout>
